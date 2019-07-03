@@ -1,6 +1,25 @@
 body {
-  background-color: #001515
+  background-color: #232730;
+  font-family: "Menlo";
+  margin:0;
+}
+header {
+  background-color: #131720;
+  height: 60px;
+  width: 100%;
+
 }
 h1 {
-  color: #ffffff
+  color: #ffffff;
+}
+
+img:hover {
+  -ms-transform: rotate(360deg); /* IE 9 */
+  -webkit-transform: rotate(360deg); /* Safari prior 9.0 */
+  transform: rotate(360deg); /* Standard syntax */
+  transition-duration: .75s;
+}
+img {
+  transform: rotate(-360deg); /* Standard syntax */
+  transition-duration: .75s;
 }
