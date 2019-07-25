@@ -13,13 +13,36 @@ h1 {
   color: #ffffff;
 }
 
-img:hover {
+.logo:hover {
   -ms-transform: rotate(360deg); /* IE 9 */
   -webkit-transform: rotate(360deg); /* Safari prior 9.0 */
   transform: rotate(360deg); /* Standard syntax */
   transition-duration: .75s;
 }
-img {
+.logo {
+  width: 60px;
   transform: rotate(-360deg); /* Standard syntax */
   transition-duration: .75s;
+}
+
+.item_1 {
+  background: url('../img/Sudoku.jpg');
+  height: 400px;
+  width: 600px;
+  margin: 10px;
+}
+
+.item_1:hover {
+  background: url('../img/Sudoku.gif')
+}
+
+.item_2 {
+  background: url('../img/Idyllic.jpg');
+  height:400px;
+  width:600px;
+  margin: 10px;
+}
+
+.item_2:hover{
+  background: url('../img/Idyllic.gif');
 }
