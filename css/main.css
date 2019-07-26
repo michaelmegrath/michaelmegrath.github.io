@@ -1,14 +1,20 @@
 body {
   background-color: #232730;
-  font-family: "Menlo";
+  /*font-family: "Menlo";*/
   margin:0;
 }
 header {
   background-color: #131720;
   height: 60px;
   width: 100%;
+  font-family: "Menlo";
 
 }
+
+.greetings {
+  font-family: "Menlo";
+}
+
 h1 {
   color: #ffffff;
 }
@@ -25,25 +31,58 @@ h1 {
   transition-duration: .75s;
 }
 
+.projects {
+  font-family: arial;
+  padding: 30px;
+}
+
+.projects h2{
+  padding:5px 10px;
+  color: white;
+}
+
+.projects p{
+  padding:5px 10px;
+  color: white;
+}
+
 .item_1 {
-  background: url('../img/Sudoku.jpg');
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+      ),
+    url('../img/Sudoku.jpg');
   background-repeat: no-repeat;
   float: left;
   width: 600px;
   height:400px;
   margin: 10px;
+  background-size: cover;
+
 }
 
 .item_1:hover {
   background: url('../img/Sudoku.gif');
   background-repeat: no-repeat;
 }
+.item_1:hover h2{
+  color: transparent;
+}
+.item_1:hover p{
+  color: transparent;
+}
 
 .item_2 {
-  background: url('../img/Idyllic.jpg');
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+      ),
+    url('../img/Idyllic.jpg');
   background-repeat: no-repeat;
   height:400px;
-  width:600px;
+  width: 600px;
   margin: 10px;
   float:left;
 }
@@ -51,4 +90,11 @@ h1 {
 .item_2:hover{
   background: url('../img/Idyllic.gif');
   background-repeat: no-repeat;
+}
+
+.item_2:hover h2{
+  color: transparent;
+}
+.item_2:hover p{
+  color: transparent;
 }
