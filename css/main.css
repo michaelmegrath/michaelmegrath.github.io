@@ -34,6 +34,7 @@ h1 {
 .projects {
   font-family: arial;
   padding: 30px;
+
 }
 
 .projects h2{
@@ -47,6 +48,11 @@ h1 {
 }
 
 .item_1 {
+  transition: all 2s;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: #669999;
+  border-radius: 5px;
   background:
     linear-gradient(
       rgba(0,0,0,0.5),
@@ -58,13 +64,15 @@ h1 {
   width: 600px;
   height:400px;
   margin: 10px;
-  background-size: cover;
 
 }
 
 .item_1:hover {
+  transition: all 2s;
   background: url('../img/Sudoku.gif');
   background-repeat: no-repeat;
+  cursor: pointer;
+
 }
 .item_1:hover h2{
   color: transparent;
@@ -81,15 +89,24 @@ h1 {
       ),
     url('../img/Idyllic.jpg');
   background-repeat: no-repeat;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: #669999;
+  border-radius: 5px;
   height:400px;
   width: 600px;
   margin: 10px;
   float:left;
+  transition: all 2s;
+
 }
 
 .item_2:hover{
   background: url('../img/Idyllic.gif');
   background-repeat: no-repeat;
+  transition: all 2s;
+  cursor: pointer;
+
 }
 
 .item_2:hover h2{
