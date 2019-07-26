@@ -11,6 +11,16 @@ header {
 
 }
 
+footer {
+  float:left;
+  text-align: center;
+  width: 100%;
+  color: white;
+
+}
+
+
+
 .greetings {
   font-family: "Menlo";
 }
@@ -40,11 +50,13 @@ h1 {
 .projects h2{
   padding:5px 10px;
   color: white;
+  font-size: 30px;
 }
 
 .projects p{
   padding:5px 10px;
   color: white;
+  font-size: 20px;
 }
 
 .item_1 {
